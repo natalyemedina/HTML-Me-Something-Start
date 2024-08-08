@@ -1,1 +1,95 @@
 /* Write your CSS here! */
+body {
+    margin: 8px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(images/Background.JPG);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    opacity: 0.5;
+    z-index: -1;
+}
+
+#mainHeading {
+    color: red;
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    background-color: whitesmoke;
+}
+
+p {
+    margin: 25px 25px 25px;
+}
+
+#testP.funParagraph {
+    color: green;
+    font-size: 1.2em;
+    line-height: 1.6;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+}
+
+div {
+    padding: 25px 50px 75px 100px;
+}
+
+main {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+figure {
+    text-align: center;
+    margin: 20px 0;
+    max-width: 100%;
+}
+
+figure img {
+    width: 500px;
+    height: 400px; 
+    object-fit: cover;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+figcaption {
+    font-style: italic;
+    font-size: 0.9em;
+    margin-top: 0.5em;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f1f1f1;
+}
+
+
+
+
+
+
